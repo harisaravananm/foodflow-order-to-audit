@@ -1,8 +1,43 @@
-# FoodFlow: order to audit for a small food manufacturer
+<div align="center">
 
-A working prototype for the NIT Tiruchirappalli (Centre for Digital Infrastructure) internship problem.
-Every transaction is entered once, where it happens, and flows into stock, production, costing, accounts and the auditor's reports.
+# 🥨 FoodFlow: Order-to-Audit System
 
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-3.x-000000?logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Ledger%20DB-003B57?logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?logo=render&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-Offline%20Orders-5A0FC8?logo=pwa&logoColor=white)
+![Tests](https://img.shields.io/badge/Tests-18%20Passing-2E7D4F)
+![Benchmark](https://img.shields.io/badge/Section%205%20Benchmark-Verified-E9A82B)
+
+**From a salesman's order to the auditor's report: GST invoices, BOM production with variance, stock ledger, costing and reports for a small food manufacturer.**
+
+🔗 **[Live Demo]https://foodflow-order-to-audit.onrender.com/**  ·  📐 **[Design Note](DESIGN.md)**
+
+</div>
+
+---
+
+## 🔑 Test Logins (password: `demo123`)
+
+| Role | Username | What they can do |
+| --- | --- | --- |
+| 🛠️ Factory admin | `admin` | Approve orders, GST invoices, dispatch, payments |
+| 📱 Salesman | `salesman_a`, `salesman_b` | Take orders on mobile, see own sales |
+| 🏭 Production | `production` | Purchases, recipes, production runs, wastage |
+| 📊 Accountant | `accountant` | Read-only reports and exports |
+| 👤 Owner | `owner` | Dashboard, alerts, cost per packet, dues |
+
+> ⏳ The free Render instance sleeps when idle, so the first load can take about a minute. Data resets on restart and reseeds with the benchmark data.
+
+## 📖 Overview
+
+- **Project:** Internship shortlisting task, NIT Tiruchirappalli (Centre for Digital Infrastructure)
+- **Core idea:** every transaction is entered once and flows into stock, production, costing and accounts
+- **Maintainer:** Hari Saravanan M ([@harisaravananm](https://github.com/harisaravananm))
+
+---
 ## Run it
 
 ```
