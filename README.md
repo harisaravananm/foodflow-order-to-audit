@@ -33,7 +33,7 @@
 
 ## 📖 Overview
 
-- **Project:** Internship shortlisting task, NIT Tiruchirappalli (Centre for Digital Infrastructure)
+
 - **Core idea:** every transaction is entered once and flows into stock, production, costing and accounts
 - **Maintainer:** Hari Saravanan M ([@harisaravananm](https://github.com/harisaravananm))
 
