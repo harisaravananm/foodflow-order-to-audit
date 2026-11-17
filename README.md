@@ -13,7 +13,7 @@
 
 **From a salesman's order to the auditor's report: GST invoices, BOM production with variance, stock ledger, costing and reports for a small food manufacturer.**
 
-🔗 **[Live Demo]https://foodflow-order-to-audit.onrender.com/**  ·  📐 **[Design Note](DESIGN.md)**
+🔗 **Live Demo https://foodflow-order-to-audit.onrender.com/**  ·  📐 **[Design Note](DESIGN.md)**
 
 </div>
 
