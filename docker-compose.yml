@@ -1,0 +1,7 @@
+services:
+  foodflow:
+    build: .
+    ports: ["5000:7860"]
+    volumes: ["foodflow-data:/home/user/app/data"]
+volumes:
+  foodflow-data:
